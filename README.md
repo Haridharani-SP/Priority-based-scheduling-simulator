@@ -1,1 +1,1 @@
-# Priority-based-scheduling-simulator
+# Priority based scheduling simulator
