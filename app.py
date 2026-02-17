@@ -1,20 +1,16 @@
 import json
 import copy
-
-
 def get_data():
     fh = open("tickets.json")
     x = json.load(fh)
     fh.close()
     return x
-
 def fcfs_pick(q):
     first = q[0]
     for i in range(0, len(q)):
         if q[i]["arrival"] < first["arrival"]:
             first = q[i]
     return first
-
 def sjf_pick(q):
     first = q[0]
     idx = 1
@@ -23,14 +19,12 @@ def sjf_pick(q):
             first = q[idx]
         idx = idx + 1
     return first
-
 def priority_pick(q):
     first = q[0]
     for i in q:
         if i["priority"] < first["priority"]:
             first = i
     return first
-
 def execute(mode):
     original = get_data()
     task_pool = copy.deepcopy(original)
