@@ -1,0 +1,30 @@
+[
+  {
+    "id": "T1",
+    "arrival": 0,
+    "execution": 6,
+    "priority": 1,
+    "deadline": 8
+  },
+  {
+    "id": "T2",
+    "arrival": 1,
+    "execution": 2,
+    "priority": 3,
+    "deadline": 10
+  },
+  {
+    "id": "T3",
+    "arrival": 2,
+    "execution": 4,
+    "priority": 2,
+    "deadline": 9
+  },
+  {
+    "id": "T4",
+    "arrival": 3,
+    "execution": 3,
+    "priority": 1,
+    "deadline": 7
+  }
+]
